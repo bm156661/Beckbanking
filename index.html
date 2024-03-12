@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    ><title>Online Banking Login</title>
+    <!--Die Styles.css muss aus allen HTML-Dateien verlinkt werden-->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <button type="submit">Kontenübersicht</button>
+    <button type="submit">Überweisung ausführen</button>
     <header>
         <!--Der Header soll die Seite strukturieren und bekommt entsprechende Style-->
-        <h1>Willkommen bei Beckbanking</h1>
+        <img src="beckbanking32.png">
+        <a href="hilfe.html">Hilfe</a>
+        <a href="postfach.html">Postfach</a>
+        <a href="profil.html">Profil</a>
+        <a href="agb.html">AGB</a>
     </header>
-    
-    <div class="container">
-        <img src="bank_logo.png" alt="Bank Logo">
-        <!--Formularfelder (Textboxen, Button etc.) müssen in Form-Tags eingebettet werden-->
-        <form action="login.php" method="post">
-            <input type="text" name="Username" placeholder="Benutzername oder E-Mail" required>
-            <input type="password" name="password" placeholder="Passwort" required>
-            <label for="2fa">2-Faktor-Authentifizierung</label>
-            <input type="text" id="2fa" name="2fa" required>
-            <a href="forgot_passwort.html">Passwort vergessen?</a>
-            <button type="submit">Login</button>
-        </form>
-        <p>Alternativer Login mit Face-ID: <a href="face_id_login.html">Hier klicken</a></p>
-        <a href="https://www.beckbanking.com>Zurück zur Homepage"<a/>
-    </div>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.instagram.com/deinebank"><img src="instagram_icon.png" alt="Instagram"></a>
+        </div>
+        <div class="bank-homepage">
+            <a href="https://www.deinebank.de">www.deinebank.de</a>
+        </div>
+        <div class="kontakt">
+            <p>Geschäftsführer: Max Mustermann</p>
+            <p>Geschäftssitz: Musterstraße 123, 12345 Musterstadt</p>
+            <p>Rechtsform: GmbH</p>
+            <p>Kontakt:</p>
+            <p>Telefon: 0123 456789</p>
+            <p>E-Mail: info@deinebank.de</p>
+        </div>
+    </footer>
 </body>
 </html>

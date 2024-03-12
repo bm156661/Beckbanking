@@ -12,4 +12,36 @@ input[type="password"],{
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    font-size: larger;
+    text-align: center;
+}
+
+footer{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
     
